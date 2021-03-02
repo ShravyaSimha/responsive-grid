@@ -1,0 +1,67 @@
+.container {
+  align-items: center;
+  justify-content: center
+}
+
+
+.row-cols-1, .row-cols-md-2, .row-cols-lg-3 {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#avatar {
+	padding-right: 0;
+}
+
+
+.name {
+	padding-top: 5px;
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.date {
+	padding-top: 0px;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 13px;
+    color: #8D9AA5;
+}
+
+
+#parent {
+    display: table;
+}
+
+#child {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 0;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.img1 {
+	position: relative;
+}
+
+.img2 {
+	position: absolute;
+	margin-top: 15%;
+ 	margin-left: 50%;
+ 	transform: translate(420%,-150%);
+ 	width: 7%;
+}
+
+.num {
+	position: absolute;
+	margin-top: 15%;
+ 	margin-left: 50%;
+ 	transform: translate(480%,-120%);
+ 	width: 8%;
+ 	color: white;
+ 	font-size: 20px;
+}
